@@ -23,7 +23,7 @@ const clearAuthData = () => {
 
 // Tạo instance axios với cấu hình base
 const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://codex-backend-rho.vercel.app/api",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",
